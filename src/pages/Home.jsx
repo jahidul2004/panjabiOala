@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import SizeChart from "../components/SizeChart";
+import Stat from "../components/Stat";
 
 const Home = () => {
     return (
@@ -23,6 +24,13 @@ const Home = () => {
                     {/* SizeChart */}
                     <SizeChart></SizeChart>
                     {/* SizeChart end */}
+                </div>
+            </div>
+            <div className="bg-[#0b0f32]">
+                <div className="container mx-auto p-5 md:p-10">
+                    {/* Stat */}
+                    <Stat></Stat>
+                    {/* Stat end */}
                 </div>
             </div>
         </div>
