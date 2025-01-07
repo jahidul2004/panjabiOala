@@ -1,3 +1,4 @@
+import AnotherCombo from "../components/AnotherCombo";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import SizeChart from "../components/SizeChart";
@@ -31,6 +32,13 @@ const Home = () => {
                     {/* Stat */}
                     <Stat></Stat>
                     {/* Stat end */}
+                </div>
+            </div>
+            <div className="bg-white">
+                <div className="container mx-auto p-5 md:p-10">
+                    {/* Another */}
+                    <AnotherCombo></AnotherCombo>
+                    {/* Another end */}
                 </div>
             </div>
         </div>
