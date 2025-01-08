@@ -1,6 +1,7 @@
 import AnotherCombo from "../components/AnotherCombo";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import OrderForm from "../components/OrderForm";
 import SizeChart from "../components/SizeChart";
 import Stat from "../components/Stat";
 
@@ -39,6 +40,10 @@ const Home = () => {
                     {/* Another */}
                     <AnotherCombo></AnotherCombo>
                     {/* Another end */}
+
+                    {/* Order form */}
+                    <OrderForm></OrderForm>
+                    {/* Order form end */}
                 </div>
             </div>
         </div>
